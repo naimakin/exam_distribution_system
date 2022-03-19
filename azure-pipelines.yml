@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: acunetix360@1
+  inputs:
+    apiConnection: 'acx1'
+    scanTypes: '0'
+    scanWebSites: '4184e122-6c31-4d70-c2df-ae53005c08fe'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
